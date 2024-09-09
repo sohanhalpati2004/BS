@@ -1,0 +1,99 @@
+* {
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background-color: rgb(241, 238, 238);
+}
+
+.card-title {
+    padding: 0px 10px 0px 5px;
+    font-style: bold;
+}
+
+.card-text {
+    padding: 0px 10px 0px 5px;
+}
+
+.btn {
+    color: black;
+    border: 2px solid #e7e7e7;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px;
+}
+
+.clearfix {
+    margin: 0px 25px 0px 5px;
+}
+
+.list-group-item {
+    padding: 0px 10px 0px 20px;
+}
+
+.list-item {
+    color: #333;
+    margin: 10px 0px 0px 0px;
+}
+
+.flex-container div {
+    background-color: rgb(241, 238, 238);
+    padding: 5px 15px;
+}
+
+.flex-container div:hover {
+    background-color: #828080;
+}
+
+/*footer*/
+.footer {
+    background: #828080;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .col-sm-8,
+    .col-sm-4 {
+        width: 100%;
+    }
+
+    .list-group {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .list1,
+    .list2 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .list-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list1,
+    .list2 {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:340px) {
+    .float-end {
+        float: left !important;
+        padding: 0px 0px 0px 10px;
+    }
+}
